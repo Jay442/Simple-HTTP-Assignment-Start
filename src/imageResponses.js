@@ -8,4 +8,6 @@ const getMeme = (request, response) => {
     response.end();
 };
 
-module.exports.getMeme = getMeme;
+module.exports = {
+    getMeme
+};
